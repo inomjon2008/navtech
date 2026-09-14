@@ -7,10 +7,8 @@ const Header = () => {
 
   const menu = [
     { name: "Bosh sahifa", href: "#home" },
-    { name: "Xizmatlar", href: "#services" },
-    { name: "Portfolio", href: "#portfolio" },
     { name: "Narxlar", href: "#pricing" },
-    { name: "Jamoa", href: "#team" },
+    { name: "Jamoa", href: "#jamoa" },
     { name: "FAQ", href: "#faq" },
   ];
 
@@ -47,7 +45,6 @@ const Header = () => {
 
           {/* DESKTOP NAVIGATION */}
           <nav className="hidden items-center lg:flex">
-
             <div className="flex items-center gap-1 rounded-full bg-[#f6f6f6] p-1.5">
 
               {menu.map((item, index) => (
@@ -70,7 +67,6 @@ const Header = () => {
               ))}
 
             </div>
-
           </nav>
 
           {/* RIGHT */}
